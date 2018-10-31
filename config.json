@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "menu": {
+    "global": {
+      "label": "Config.globalSettingsLabel",
+      "formFields": {
+        "uptain.token": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.uptainTokenLabel",
+          "options": {}
+        },
+        "uptain.customers": {
+          "type": "checkBox",
+          "required": false,
+          "label": "Config.uptainCustomersLabel",
+          "options": {}
+        },
+        "uptain.newsletter": {
+          "type": "checkBox",
+          "required": false,
+          "label": "Config.uptainNewsletterLabel",
+          "options": {}
+        }
+      }
+    }
+  }
+}
