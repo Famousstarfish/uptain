@@ -1,0 +1,39 @@
+{
+  "name": "UptainConnectNoIO",
+  "namespace": "UptainConnectNoIO",
+  "type": "general",
+  "version": "1.0.0",
+  "license": "AGPL-3.0",
+  "authorIcon": "icon_author_xs.png",
+  "pluginIcon": "icon_plugin_xs.png",
+  "price": 0.00,
+  "description": "Die uptain GmbH entwickelt automatisierte Lösungen zur Rückgewinnung von Kaufabbrechern für Online-Shops. uptain-Connect wird im Online-Shop eingebunden und ermittelt automatisch diejenigen Besucher, die kurz davor sind, den Online-Shop zu verlassen. Gleichzeitig wird durch statistische Auswertungen der gesammelten Daten der wahrscheinlichste Grund für den Kaufabbruch identifiziert.  Die Datenermittlung, -sicherung und Weiterverarbeitung ist mit der EU-Datenschutz-Grundverordnung (DSGVO) konform und erfolgt auf einem sicheren Server mit deutschem Standort.  Basierend auf den ermittelten Daten generiert der uptain-Algorithmus eine individuelle Servicenachricht oder ein personalisiertes Dialogfenster für jeden Abbrecher, um diesen für den Online-Shop als Kunden zurückzugewinnen. Im Vordergrund steht eine hohe inhaltliche Relevanz für den Kunden und dessen Kontext sowie eine reibungslose User Experience innerhalb des Online-Shops. Die uptain-Mails sowie uptain-Activation sind cross-device-fähig und funktionieren auf allen Endgeräten (Desktop & Mobile).  uptain-Mails  Mit uptain-Mails können Sie automatisiert personalisierte Service-E-Mails an  jeden Kunden versenden, der etwas in den Warenkorb gelegt hat, aber den  Einkauf nicht erfolgreich abschließen konnte.  uptain-Activation  Mit uptain-Activation können Sie Ihren Kunden automatisiert mithilfe von  personalisierten Dialogfenstern dabei helfen, den Einkaufsprozess  abzuschließen und verhindern somit, dass Kunden Ihren Onlineshop  verlassen, ohne etwas zu kaufen.  Um das Plugin nutzen zu können registrieren Sie bitte Ihre individuelle uptain-ID kostenfrei unter:Sign-up for uptain (http://www.uptain.de/de/portfolio/plentymarkets/) Vorraussetzungen:  Nachdem Sie sich erfolgreich registriert haben wird sich unser Service-Team mit Ihnen in Verbindung setzen um das Plugin gemäß ihrer Wünsche einzurichten.  Kosten entstehen Ihnen nur im Fall erfolgreich zurückgewonnener Kunden auf einer Provisionsbasis.",
+  "shortDescription": {
+    "de": "Wir entwickeln automatisierte Lösungen zur Rückgewinnung von Kaufabbrechern nach dem neuesten Stand der Technik – gepaart mit absoluter Kundenorientierung.",
+    "en": "We develop automated state-of-the-art solutions for regaining lost customers coupled with absolute customer orientation."
+  },
+  "categories": [
+    "3527"
+  ],
+  "keywords": [
+    "plugins",
+    "template",
+    "uptain",
+    "activation",
+    "mail",
+    "cancellation",
+    "optimisation"
+  ],
+  "require": [],
+  "phone": "+49 40 696 39 10 30",
+  "author": "uptain GmbH",
+  "email": "info@uptain.de",
+  "serviceProvider": "UptainConnectNoIO\\Providers\\UptainConnectServiceProvider",
+  "dataProviders": [
+    {
+      "key": "UptainConnectNoIO\\Providers\\UptainSnippetProvider",
+      "name": "Uptain Snippet.",
+      "description": "Adds tha uptain Snippet to your Shopsystem."
+    }
+  ]
+}

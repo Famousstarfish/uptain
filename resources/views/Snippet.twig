@@ -1,0 +1,38 @@
+{% set token =  config("UptainConnectNoIO.uptain.token") %}
+
+{% set usedVoucher = voucherCode %}
+
+{% if contact and hasOrder and config("UptainConnectNoIO.uptain.customers") == "true" %}
+    {% set source =  "customer" %}
+{% elseif contact and contact.newsletterAllowanceAt != null and config("UptainConnectNoIO.uptain.newsletter") == "true" %}
+    {% set source =  "newsletter" %}
+{% endif %}
+
+
+{% if source and contact %}
+	{% set info = {
+		email       : contact.email,
+        firstname   : contact.firstName,
+        lastname    : contact.lastName,
+        title       : contact.title,
+        gender      : contact.gender == "male" ? "m" : (contact.gender == "female" ? "f" : null),
+		scv         : scv,
+		usedvoucher : voucherCode,
+		currency    : currency,
+	} %}
+{% else %}
+	{% set info = {
+		scv         : scv,
+		usedvoucher : voucherCode,
+		currency    : currency,
+	} %}
+{% endif %}
+
+<script type="text/javascript" src="https://app.uptain.de/js/uptain.js?x={{ token }}"
+        data-plugin="plenty_no_io:1.0.0" id="__up_data_qp"
+        {% for key, value in info %}
+            {% if value %}
+                data-{{ key }}="{{ value }}"
+            {% endif %}
+        {% endfor %}
+></script>

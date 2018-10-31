@@ -1,0 +1,296 @@
+{
+  "properties": [
+    {
+      "orderId": 106,
+      "typeId": 3,
+      "value": "6000"
+    },
+    {
+      "orderId": 106,
+      "typeId": 4,
+      "value": "unpaid"
+    },
+    {
+      "orderId": 106,
+      "typeId": 2,
+      "value": "6"
+    },
+    {
+      "orderId": 106,
+      "typeId": 1,
+      "value": "1"
+    },
+    {
+      "orderId": 106,
+      "typeId": 6,
+      "value": "de"
+    }
+  ],
+  "addressRelations": [
+    {
+      "orderId": 106,
+      "addressId": 6,
+      "typeId": 1
+    },
+    {
+      "orderId": 106,
+      "addressId": 6,
+      "typeId": 2
+    }
+  ],
+  "addresses": [],
+  "relations": [
+    {
+      "orderId": 106,
+      "referenceType": "warehouse",
+      "referenceId": 1,
+      "relation": "sender"
+    },
+    {
+      "orderId": 106,
+      "referenceType": "contact",
+      "referenceId": 104,
+      "relation": "receiver"
+    }
+  ],
+  "dates": [
+    {
+      "orderId": 106,
+      "typeId": 2,
+      "date": "2018-05-16T14:31:39+02:00"
+    },
+    {
+      "orderId": 106,
+      "typeId": 4,
+      "date": "2018-05-16T14:31:39+02:00"
+    }
+  ],
+  "typeId": 1,
+  "plentyId": 38706,
+  "locationId": 1,
+  "statusId": 3,
+  "statusName": "Warten auf Zahlung",
+  "ownerId": 0,
+  "lockStatus": "unlocked",
+  "createdAt": "2018-05-16T14:31:39+02:00",
+  "updatedAt": "2018-05-16T14:31:39+02:00",
+  "id": 106,
+  "amounts": [
+    {
+      "id": 7,
+      "orderId": 106,
+      "isSystemCurrency": true,
+      "isNet": false,
+      "currency": "EUR",
+      "exchangeRate": 1,
+      "netTotal": 83.18,
+      "grossTotal": 98.99,
+      "vatTotal": 15.81,
+      "invoiceTotal": 98.99,
+      "paidAmount": 0,
+      "giftCardAmount": 0,
+      "createdAt": "2018-05-16T14:31:39+02:00",
+      "updatedAt": "2018-05-16T14:31:39+02:00",
+      "prepaidAmount": 0,
+      "vats": [
+        {
+          "id": 7,
+          "orderAmountId": 7,
+          "countryVatId": 1,
+          "vatField": 0,
+          "vatRate": 19,
+          "value": 15.81,
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00",
+          "netTotal": 83.18,
+          "grossTotal": 98.99
+        }
+      ]
+    }
+  ],
+  "orderReferences": [],
+  "orderItems": [
+    {
+      "id": 108,
+      "orderId": 106,
+      "typeId": 1,
+      "referrerId": 1,
+      "itemVariationId": 1006,
+      "quantity": 1,
+      "orderItemName": "Barsessel Black Mamba",
+      "attributeValues": null,
+      "shippingProfileId": 6,
+      "countryVatId": 1,
+      "vatField": 0,
+      "vatRate": 19,
+      "position": "0",
+      "createdAt": "2018-05-16T14:31:39+02:00",
+      "updatedAt": "2018-05-16T14:31:39+02:00",
+      "warehouseId": 1,
+      "amounts": [
+        {
+          "id": 8,
+          "orderItemId": 108,
+          "isSystemCurrency": true,
+          "currency": "EUR",
+          "exchangeRate": 1,
+          "purchasePrice": 95.12,
+          "priceOriginalGross": 99,
+          "priceOriginalNet": 83.1933,
+          "priceGross": 99,
+          "priceNet": 83.1933,
+          "surcharge": 0,
+          "discount": 0,
+          "isPercentage": true,
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        }
+      ],
+      "properties": [
+        {
+          "id": 17,
+          "orderItemId": 108,
+          "typeId": 1,
+          "value": "1",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "id": 18,
+          "orderItemId": 108,
+          "typeId": 2,
+          "value": "6",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "id": 19,
+          "orderItemId": 108,
+          "typeId": 21,
+          "value": "1",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        }
+      ],
+      "dates": [],
+      "references": []
+    },
+    {
+      "id": 109,
+      "orderId": 106,
+      "typeId": 4,
+      "referrerId": 0,
+      "itemVariationId": 0,
+      "quantity": 1,
+      "orderItemName": "Gutschein\/Coupon, Code: 7ZLSTS",
+      "attributeValues": null,
+      "shippingProfileId": 6,
+      "countryVatId": 1,
+      "vatField": 0,
+      "vatRate": 19,
+      "position": "0",
+      "createdAt": "2018-05-16T14:31:39+02:00",
+      "updatedAt": "2018-05-16T14:31:39+02:00",
+      "warehouseId": 1,
+      "amounts": [
+        {
+          "id": 9,
+          "orderItemId": 109,
+          "isSystemCurrency": true,
+          "currency": "EUR",
+          "exchangeRate": 1,
+          "purchasePrice": 0,
+          "priceOriginalGross": -5,
+          "priceOriginalNet": -4.2017,
+          "priceGross": -5,
+          "priceNet": -4.2017,
+          "surcharge": 0,
+          "discount": 0,
+          "isPercentage": true,
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        }
+      ],
+      "properties": [
+        {
+          "id": 20,
+          "orderItemId": 109,
+          "typeId": 1,
+          "value": "1",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "id": 21,
+          "orderItemId": 109,
+          "typeId": 2,
+          "value": "6",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "id": 22,
+          "orderItemId": 109,
+          "typeId": 21,
+          "value": "1",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "id": 23,
+          "orderItemId": 109,
+          "typeId": 18,
+          "value": "7ZLSTS",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "id": 24,
+          "orderItemId": 109,
+          "typeId": 19,
+          "value": "fixed_vat",
+          "createdAt": "2018-05-16T14:31:39+02:00",
+          "updatedAt": "2018-05-16T14:31:39+02:00"
+        },
+        {
+          "orderItemId": 109,
+          "typeId": 18,
+          "value": "7ZLSTS"
+        },
+        {
+          "orderItemId": 109,
+          "typeId": 19,
+          "value": "fixed_vat"
+        }
+      ],
+      "dates": [],
+      "references": []
+    },
+    {
+      "orderId": 106,
+      "typeId": 6,
+      "referrerId": 1,
+      "itemVariationId": 0,
+      "quantity": 1,
+      "orderItemName": "Shipping Costs",
+      "attributeValues": "",
+      "shippingProfileId": 6,
+      "countryVatId": 1,
+      "vatField": 0,
+      "vatRate": 19,
+      "id": 0,
+      "amounts": [
+        {
+          "orderItemId": 0,
+          "currency": "EUR",
+          "exchangeRate": 1,
+          "isSystemCurrency": true,
+          "priceOriginalGross": 4.99,
+          "priceOriginalNet": 4.1933,
+          "priceGross": 4.99,
+          "priceNet": 4.1933
+        }
+      ]
+    }
+  ]
+}
